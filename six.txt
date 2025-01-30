@@ -1,0 +1,1 @@
+Six is the first perfect number, meaning it’s equal to the sum of its proper divisors (1 + 2 + 3). It’s also the number of sides on a hexagon, a shape that appears in honeycombs due to its efficient use of space.
