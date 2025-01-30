@@ -1,0 +1,1 @@
+Nine is a fascinating number in mathematics because multiplying it by any number and summing the digits of the result always brings you back to nine (e.g., 9 × 5 = 45, and 4 + 5 = 9). It’s also the highest single-digit number, often associated with completion.
