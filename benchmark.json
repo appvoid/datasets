@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "text": "The cat sitted on the mat.",
+    "instruction": "fix the grammar",
+    "expected": "The cat sat on the mat."
+  },
+  {
+    "id": 2,
+    "text": "I went to the store yesterday and I buyed some milk.",
+    "instruction": "correct the verb",
+    "expected": "I went to the store yesterday and I bought some milk."
+  },
+  {
+    "id": 3,
+    "text": "She dont like pizza.",
+    "instruction": "fix it",
+    "expected": "She doesn't like pizza."
+  },
+  {
+    "id": 4,
+    "text": "The weather is very hot today.",
+    "instruction": "make it sound fancy",
+    "expected": "The weather is exceedingly warm today."
+  },
+  {
+    "id": 5,
+    "text": "Please submit your report by Friday.",
+    "instruction": "make it more casual",
+    "expected": "Hey, get your report in by Friday."
+  },
+  {
+    "id": 6,
+    "text": "He run fast.",
+    "instruction": "fix the tense",
+    "expected": "He runs fast."
+  },
+  {
+    "id": 7,
+    "text": "The company is doing good.",
+    "instruction": "use proper grammar",
+    "expected": "The company is doing well."
+  },
+  {
+    "id": 8,
+    "text": "I have two cat and three dog.",
+    "instruction": "fix the plurals",
+    "expected": "I have two cats and three dogs."
+  },
+  {
+    "id": 9,
+    "text": "the president gave a speech today.",
+    "instruction": "capitalize properly",
+    "expected": "The president gave a speech today."
+  },
+  {
+    "id": 10,
+    "text": "We should of gone earlier.",
+    "instruction": "fix the mistake",
+    "expected": "We should have gone earlier."
+  },
+  {
+    "id": 11,
+    "text": "The meeting is at 3pm in the conference room on the second floor.",
+    "instruction": "shorten it",
+    "expected": "The meeting is at 3pm, second floor conference room."
+  },
+  {
+    "id": 12,
+    "text": "Hello",
+    "instruction": "translate to spanish",
+    "expected": "Hola"
+  },
+  {
+    "id": 13,
+    "text": "I am very happy today because the sun is shining.",
+    "instruction": "make it sad",
+    "expected": "I am very sad today because the sun isn't shining."
+  },
+  {
+    "id": 14,
+    "text": "The dog chased the cat up the tree.",
+    "instruction": "swap the animals",
+    "expected": "The cat chased the dog up the tree."
+  },
+  {
+    "id": 15,
+    "text": "red blue green yellow",
+    "instruction": "put them in alphabetical order",
+    "expected": "blue green red yellow"
+  },
+  {
+    "id": 16,
+    "text": "John went to the store. John bought milk. John came home.",
+    "instruction": "stop repeating the name so much",
+    "expected": "John went to the store. He bought milk. He came home."
+  },
+  {
+    "id": 17,
+    "text": "The project deadline is next week and we need to finish the report and also prepare the presentation and update the budget.",
+    "instruction": "break it into bullet points",
+    "expected": "The project deadline is next week. We need to:\n- Finish the report\n- Prepare the presentation\n- Update the budget"
+  },
+  {
+    "id": 18,
+    "text": "ur gonna love this movie its so good",
+    "instruction": "make it proper english",
+    "expected": "You are going to love this movie, it's so good."
+  },
+  {
+    "id": 19,
+    "text": "The cake was eaten by the children.",
+    "instruction": "make it active voice",
+    "expected": "The children ate the cake."
+  },
+  {
+    "id": 20,
+    "text": "It's raining cats and dogs outside.",
+    "instruction": "say it literally",
+    "expected": "It's raining very heavily outside."
+  },
+  {
+    "id": 21,
+    "text": "I like apples, oranges, bananas, and grapes.",
+    "instruction": "Actually, remove that last item",
+    "expected": "I like apples, oranges, and bananas."
+  },
+  {
+    "id": 22,
+    "text": "This is a test sentence.",
+    "instruction": "make every word uppercase",
+    "expected": "THIS IS A TEST SENTENCE."
+  },
+  {
+    "id": 23,
+    "text": "The temperature is 72 degrees Fahrenheit.",
+    "instruction": "convert to celsius",
+    "expected": "The temperature is 22 degrees Celsius."
+  },
+  {
+    "id": 24,
+    "text": "My phone number is 555-123-4567.",
+    "instruction": "hide the last four digits",
+    "expected": "My phone number is 555-123-XXXX."
+  },
+  {
+    "id": 25,
+    "text": "First second third fourth fifth",
+    "instruction": "reverse the order",
+    "expected": "Fifth fourth third second first"
+  },
+  {
+    "id": 26,
+    "text": "The food was terrible and the service was awful.",
+    "instruction": "make it a positive review",
+    "expected": "The food was excellent and the service was wonderful."
+  },
+  {
+    "id": 27,
+    "text": "Dear Sir or Madam, I am writing to express my dissatisfaction with your product.",
+    "instruction": "You know what, rather change it a little to make it less formal",
+    "expected": "Hey, I'm not happy with your product."
+  },
+  {
+    "id": 28,
+    "text": "He was born on 03/15/1990.",
+    "instruction": "write the date out",
+    "expected": "He was born on March 15, 1990."
+  },
+  {
+    "id": 29,
+    "text": "The car costs $25000.",
+    "instruction": "add a comma to the number",
+    "expected": "The car costs $25,000."
+  },
+  {
+    "id": 30,
+    "text": "I think therefore I am.",
+    "instruction": "add the missing comma",
+    "expected": "I think, therefore I am."
+  },
+  {
+    "id": 31,
+    "text": "The quick brown fox jumps over the lazy dog.",
+    "instruction": "remove all adjectives",
+    "expected": "The fox jumps over the dog."
+  },
+  {
+    "id": 32,
+    "text": "We need to talk about the elephant in the room.",
+    "instruction": "replace the idiom with plain language",
+    "expected": "We need to talk about the obvious problem."
+  },
+  {
+    "id": 33,
+    "text": "The boy who was tall walked to the store that was nearby.",
+    "instruction": "Can you tighten this up for me?",
+    "expected": "The tall boy walked to the nearby store."
+  },
+  {
+    "id": 34,
+    "text": "one two three four five",
+    "instruction": "use actual numbers",
+    "expected": "1 2 3 4 5"
+  },
+  {
+    "id": 35,
+    "text": "The United States of America is a large country.",
+    "instruction": "abbreviate the country name",
+    "expected": "The USA is a large country."
+  },
+  {
+    "id": 36,
+    "text": "She whispered hello.",
+    "instruction": "make her yell instead",
+    "expected": "She yelled HELLO!"
+  },
+  {
+    "id": 37,
+    "text": "The man walked slowly down the long empty street.",
+    "instruction": "make it more dramatic",
+    "expected": "The man crept through the desolate, endless street."
+  },
+  {
+    "id": 38,
+    "text": "I love programming in Python.",
+    "instruction": "negate it",
+    "expected": "I don't love programming in Python."
+  },
+  {
+    "id": 39,
+    "text": "apple",
+    "instruction": "pluralize it",
+    "expected": "apples"
+  },
+  {
+    "id": 40,
+    "text": "dogs",
+    "instruction": "make it singular",
+    "expected": "dog"
+  },
+  {
+    "id": 41,
+    "text": "I went to the park yesterday.",
+    "instruction": "On second thought, change it to future tense",
+    "expected": "I will go to the park tomorrow."
+  },
+  {
+    "id": 42,
+    "text": "She is a doctor.",
+    "instruction": "ask it as a question",
+    "expected": "Is she a doctor?"
+  },
+  {
+    "id": 43,
+    "text": "Please close the door.",
+    "instruction": "make it a question",
+    "expected": "Could you close the door?"
+  },
+  {
+    "id": 44,
+    "text": "The results were good but not great.",
+    "instruction": "make it more optimistic",
+    "expected": "The results were great and very promising."
+  },
+  {
+    "id": 45,
+    "text": "Water freezes at 32 degrees Fahrenheit.",
+    "instruction": "use celsius",
+    "expected": "Water freezes at 0 degrees Celsius."
+  },
+  {
+    "id": 46,
+    "text": "I ate breakfast, then I went to work, then I had lunch, then I went home.",
+    "instruction": "ditch the thens",
+    "expected": "I ate breakfast, went to work, had lunch, and went home."
+  },
+  {
+    "id": 47,
+    "text": "He is not unhappy.",
+    "instruction": "simplify the double negative",
+    "expected": "He is happy."
+  },
+  {
+    "id": 48,
+    "text": "The CEO said quote we will improve quote.",
+    "instruction": "add proper quotation marks",
+    "expected": "The CEO said, \"we will improve.\""
+  },
+  {
+    "id": 49,
+    "text": "Paris is the capital of France and it is known for the Eiffel Tower.",
+    "instruction": "split into two sentences",
+    "expected": "Paris is the capital of France. It is known for the Eiffel Tower."
+  },
+  {
+    "id": 50,
+    "text": "I can't believe it's not butter.",
+    "instruction": "remove all contractions",
+    "expected": "I cannot believe it is not butter."
+  },
+  {
+    "id": 51,
+    "text": "The experiment was conducted. Results were obtained. The data was analyzed.",
+    "instruction": "combine into one sentence",
+    "expected": "The experiment was conducted, results were obtained, and the data was analyzed."
+  },
+  {
+    "id": 52,
+    "text": "She plays tennis every Saturday.",
+    "instruction": "rewrite in past tense",
+    "expected": "She played tennis every Saturday."
+  },
+  {
+    "id": 53,
+    "text": "The package weighs 5 pounds.",
+    "instruction": "convert to kilograms",
+    "expected": "The package weighs 2.3 kilograms."
+  },
+  {
+    "id": 54,
+    "text": "My email is john@example.com.",
+    "instruction": "censor the email",
+    "expected": "My email is j***@example.com."
+  },
+  {
+    "id": 55,
+    "text": "He drove 100 miles to get there.",
+    "instruction": "switch to kilometers",
+    "expected": "He drove 161 kilometers to get there."
+  },
+  {
+    "id": 56,
+    "text": "The answer is 42.",
+    "instruction": "spell out the number",
+    "expected": "The answer is forty-two."
+  },
+  {
+    "id": 57,
+    "text": "I like chocolate ice cream.",
+    "instruction": "express the opposite preference",
+    "expected": "I dislike chocolate ice cream."
+  },
+  {
+    "id": 58,
+    "text": "Mon Tue Wed Thu Fri",
+    "instruction": "write out the full day names",
+    "expected": "Monday Tuesday Wednesday Thursday Friday"
+  },
+  {
+    "id": 59,
+    "text": "The glass is half empty.",
+    "instruction": "make it optimistic",
+    "expected": "The glass is half full."
+  },
+  {
+    "id": 60,
+    "text": "See you at 3:00 PM.",
+    "instruction": "use 24 hour time",
+    "expected": "See you at 15:00."
+  },
+  {
+    "id": 61,
+    "text": "lol that was so funny i cant even",
+    "instruction": "write it like an adult",
+    "expected": "That was really funny, I can't stop laughing."
+  },
+  {
+    "id": 62,
+    "text": "The patient presented with cephalgia and pyrexia.",
+    "instruction": "dumb it down",
+    "expected": "The patient had a headache and a fever."
+  },
+  {
+    "id": 63,
+    "text": "I have a headache.",
+    "instruction": "use medical terminology",
+    "expected": "I am experiencing cephalgia."
+  },
+  {
+    "id": 64,
+    "text": "Goodbye",
+    "instruction": "say it in french",
+    "expected": "Au revoir"
+  },
+  {
+    "id": 65,
+    "text": "Run the program. Check the output. Fix the bugs.",
+    "instruction": "number the steps",
+    "expected": "1. Run the program.\n2. Check the output.\n3. Fix the bugs."
+  },
+  {
+    "id": 66,
+    "text": "There are too many cooks in the kitchen.",
+    "instruction": "say it straightforwardly",
+    "expected": "There are too many people involved."
+  },
+  {
+    "id": 67,
+    "text": "I will finish this by end of day.",
+    "instruction": "make it sound uncertain",
+    "expected": "I might finish this by end of day."
+  },
+  {
+    "id": 68,
+    "text": "This product is okay.",
+    "instruction": "make it a rave review",
+    "expected": "This product is absolutely amazing!"
+  },
+  {
+    "id": 69,
+    "text": "The team won the game 3-1.",
+    "instruction": "describe it from the losing side",
+    "expected": "The team lost the game 1-3."
+  },
+  {
+    "id": 70,
+    "text": "My name is Alice and I live in New York.",
+    "instruction": "switch to third person",
+    "expected": "Her name is Alice and she lives in New York."
+  },
+  {
+    "id": 71,
+    "text": "The store opens at 9 and closes at 5.",
+    "instruction": "say it as hours of operation",
+    "expected": "Hours of operation: 9 AM - 5 PM."
+  },
+  {
+    "id": 72,
+    "text": "Buy milk eggs bread butter cheese",
+    "instruction": "make it a proper list with commas",
+    "expected": "Buy milk, eggs, bread, butter, and cheese."
+  },
+  {
+    "id": 73,
+    "text": "The defendant is guilty.",
+    "instruction": "make it a presumption of innocence",
+    "expected": "The defendant is presumed innocent."
+  },
+  {
+    "id": 74,
+    "text": "I think we should maybe possibly consider looking into this.",
+    "instruction": "be more assertive",
+    "expected": "We should look into this."
+  },
+  {
+    "id": 75,
+    "text": "The house is big.",
+    "instruction": "use a stronger adjective",
+    "expected": "The house is enormous."
+  },
+  {
+    "id": 76,
+    "text": "STOP YELLING AT ME!",
+    "instruction": "make it lowercase and calm",
+    "expected": "Please stop yelling at me."
+  },
+  {
+    "id": 77,
+    "text": "The event starts January 1 2025.",
+    "instruction": "add proper date punctuation",
+    "expected": "The event starts January 1, 2025."
+  },
+  {
+    "id": 78,
+    "text": "He has alot of friends.",
+    "instruction": "fix the spelling",
+    "expected": "He has a lot of friends."
+  },
+  {
+    "id": 79,
+    "text": "Their going to there house over they're.",
+    "instruction": "fix the their/there/they're",
+    "expected": "They're going to their house over there."
+  },
+  {
+    "id": 80,
+    "text": "The meeting was very very very long.",
+    "instruction": "remove the redundancy",
+    "expected": "The meeting was very long."
+  },
+  {
+    "id": 81,
+    "text": "Its a beautiful day.",
+    "instruction": "fix the apostrophe",
+    "expected": "It's a beautiful day."
+  },
+  {
+    "id": 82,
+    "text": "I could care less about that.",
+    "instruction": "use the correct phrase",
+    "expected": "I couldn't care less about that."
+  },
+  {
+    "id": 83,
+    "text": "The data shows that sales are up 50% compared to last year.",
+    "instruction": "make it a headline",
+    "expected": "Sales Up 50% Year-Over-Year"
+  },
+  {
+    "id": 84,
+    "text": "Bob Alice Charlie",
+    "instruction": "sort alphabetically",
+    "expected": "Alice Bob Charlie"
+  },
+  {
+    "id": 85,
+    "text": "I need this ASAP.",
+    "instruction": "spell out the acronym",
+    "expected": "I need this as soon as possible."
+  },
+  {
+    "id": 86,
+    "text": "The movie was 2 hours and 30 minutes long.",
+    "instruction": "write the duration shorter",
+    "expected": "The movie was 2h 30m long."
+  },
+  {
+    "id": 87,
+    "text": "We have a meeting at noon.",
+    "instruction": "add the numeric time",
+    "expected": "We have a meeting at noon (12:00 PM)."
+  },
+  {
+    "id": 88,
+    "text": "The fox is quick. The fox is brown. The fox jumps over the dog.",
+    "instruction": "merge these into one sentence",
+    "expected": "The quick brown fox jumps over the dog."
+  },
+  {
+    "id": 89,
+    "text": "tbh idk what ur talking about lmao",
+    "instruction": "translate to normal english",
+    "expected": "To be honest, I don't know what you're talking about."
+  },
+  {
+    "id": 90,
+    "text": "a b c d e",
+    "instruction": "capitalize all letters",
+    "expected": "A B C D E"
+  },
+  {
+    "id": 91,
+    "text": "The server responded with a 404 error.",
+    "instruction": "explain what happened for a non-tech person",
+    "expected": "The page you were looking for was not found."
+  },
+  {
+    "id": 92,
+    "text": "Add two cups of sugar, one tablespoon of vanilla.",
+    "instruction": "halve the recipe",
+    "expected": "Add one cup of sugar, half a tablespoon of vanilla."
+  },
+  {
+    "id": 93,
+    "text": "She walked to school.",
+    "instruction": "add more detail",
+    "expected": "She walked briskly to school on a cold morning."
+  },
+  {
+    "id": 94,
+    "text": "ERROR: FILE NOT FOUND",
+    "instruction": "make it a friendly user message",
+    "expected": "Oops! We couldn't find that file."
+  },
+  {
+    "id": 95,
+    "text": "The project is 75% complete.",
+    "instruction": "express as a fraction",
+    "expected": "The project is three-quarters complete."
+  },
+  {
+    "id": 96,
+    "text": "Jane gave the book to him.",
+    "instruction": "replace him with a name",
+    "expected": "Jane gave the book to John."
+  },
+  {
+    "id": 97,
+    "text": "I enjoy reading and writing and coding and gaming.",
+    "instruction": "fix the list formatting",
+    "expected": "I enjoy reading, writing, coding, and gaming."
+  },
+  {
+    "id": 98,
+    "text": "colour favourite behaviour",
+    "instruction": "use american spelling",
+    "expected": "color favorite behavior"
+  },
+  {
+    "id": 99,
+    "text": "The distance is about 1000 meters.",
+    "instruction": "convert to a larger unit",
+    "expected": "The distance is about 1 kilometer."
+  },
+  {
+    "id": 100,
+    "text": "This sentence has an period error",
+    "instruction": "fix the article",
+    "expected": "This sentence has a period error."
+  }
+]
